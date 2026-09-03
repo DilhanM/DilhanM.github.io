@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Starting a new research group working on quantum computing and computational chemistry. More news, and open positions, coming soon — get in touch if you're interested in working together.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

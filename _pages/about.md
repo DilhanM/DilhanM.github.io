@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Quantum Computing &amp; Computational Chemistry &middot; University of Liverpool
+subtitle: Department of Chemistry; University of Liverpool
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>School of Computer Science and Informatics</p>
+    <p>Department of Chemistry</p>
     <p>University of Liverpool</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -26,10 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am building a new research group working at the interface of **quantum computing** and **computational chemistry**. Our aim is to develop quantum algorithms and quantum-enhanced machine learning methods for problems in molecular and materials science — from simulating chemical dynamics to designing near-term algorithms that run on today's quantum hardware.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-My own background spans quantum machine learning, tensor-network methods (matrix product states, DMRG) for excited-state dynamics, and quantum algorithms for chemistry, developed through work at the [Hartree Centre (STFC)](https://www.hartree.stfc.ac.uk/) and the University of Oxford Department of Chemistry.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-**Research interests:** quantum algorithms for chemistry &middot; quantum machine learning &middot; tensor-network methods &middot; near-term algorithms for optimisation in chemistry and biology.
+**Research interests:** Lorem ipsum &middot; dolor sit amet &middot; consectetur adipiscing &middot; elit sed do eiusmod.
 
-The group is newly forming — news, group members, and open positions will be added here as things get underway. Get in touch if you're interested in working together.
+
