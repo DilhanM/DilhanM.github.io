@@ -12,23 +12,22 @@ nav_order: 4
   }
 </style>
 
-Our research sits between chemistry, physics and computer science, and we welcome people from any of these or a related subject. Some programming experience (e.g. Python) helps, but you do not need to know quantum computing already.
+Our research sits between chemistry, physics and computer science, and we welcome people from any of these or a related subject. Some programming experience (e.g. Python) helps, but no prior knowledge of quantum computing is expected.
 
 [PhD students](#phd-students) · [MChem and master's students](#mchem-and-masters-students) · [Postdocs and fellowships](#postdocs-and-fellowships) · [Not sure if you're in the right place?](#not-sure-if-youre-in-the-right-place)
 
 #### PhD students
 
-PhDs at Liverpool are usually funded through Centres for Doctoral Training (CDTs) and Doctoral Training Partnerships (DTPs). Good fits for our research are:
+Funded positions will be announced on the [News](/news/) page. PhDs at Liverpool are usually funded through [Centres for Doctoral Training (CDTs) and Doctoral Training Partnerships (DTPs)](https://www.liverpool.ac.uk/doctoral-training/). Good fits for our research are:
 
 - [Digital and Automated Materials Chemistry CDT](https://www.liverpool.ac.uk/doctoral-training/digital-and-automated-materials-chemistry/prospective-students/)
 - [Materials Innovators of the Future](https://www.liverpool.ac.uk/doctoral-training/materials-innovators-of-the-future/) (international doctoral training centre)
-- All [CDTs and DTPs](https://www.liverpool.ac.uk/doctoral-training/) at Liverpool
 
 Please [get in touch](mailto:dilhan.manawadu@liverpool.ac.uk) well before the application deadline.
 
 #### MChem and master's students
 
-Liverpool MChem or master's student interested in our group? [Email me](mailto:dilhan.manawadu@liverpool.ac.uk) for a chat about potential projects.
+If you are a Liverpool MChem or master's student interested in our group, [email me](mailto:dilhan.manawadu@liverpool.ac.uk) for a chat about potential projects.
 
 #### Postdocs and fellowships
 
