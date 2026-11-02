@@ -19,6 +19,12 @@ latest_posts:
 ---
 
 <style>
+  /* Centre the group name and subtitle at the top of the page. */
+  .post-header .post-title,
+  .post-header .desc {
+    text-align: center;
+  }
+
   /* Justify the bio text only (not the news or publication lists). */
   article > .clearfix p,
   #why-2 ~ p {
