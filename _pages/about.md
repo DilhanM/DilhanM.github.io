@@ -66,6 +66,6 @@ _A note from Dilhan._
 
 As a new DPhil student, I inherited a large Fortran code for time-dependent DMRG simulations. These were the pre-LLM days, and the world was in lockdown. Naturally, this meant long nights of coffee and code.
 
-√2 is an important number in quantum mechanics; it appears [everywhere](https://www.youtube.com/shorts/UmuMgA_RxnU). It turned out that the code I inherited had a bug where this number was not used consistently. After several hundred print statements, I finally traced it. It was one of the first times I felt the joy of solving a scientific problem myself, and that memory has stayed with me. As I start my own research group, it feels apt to remember why I do research in the first place.
+√2 is an important number in quantum mechanics; it appears [everywhere](https://www.youtube.com/shorts/UmuMgA_RxnU). It turned out that the code I inherited had a bug where this number was not used consistently. After several hundred print statements, I finally traced it. It was one of the first times I felt the joy of solving a scientific problem myself, and that memory has stayed with me. As I build my own research group, it feels apt to remember why we do research in the first place.
 
 For me, it is to find stray √2s.
