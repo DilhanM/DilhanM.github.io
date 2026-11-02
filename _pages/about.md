@@ -4,14 +4,10 @@ title: About
 permalink: /
 subtitle: Department of Chemistry; University of Liverpool
 
-# Photo moved to the People page; uncomment to show it here again.
-# profile:
-#   align: right
-#   image: prof_pic.jpg
-#   image_circular: false # crops the image to make it circular
-#   more_info: >
-#     <p>Department of Chemistry</p>
-#     <p>University of Liverpool</p>
+profile:
+  align: right
+  image: liverpool.jpg
+  image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,26 +25,30 @@ latest_posts:
 
 <style>
   /* Justify the bio text only (not the news or publication lists). */
-  article > .clearfix p {
+  article > .clearfix p,
+  #why-2 ~ p {
     text-align: justify;
   }
 
-  /* Move the "Why √2?" section below the news and publications lists, just above the social icons. */
-  article {
-    display: flex;
-    flex-direction: column;
-  }
-  article > .clearfix {
-    display: contents;
-  }
-  #why-2,
-  #why-2 ~ * {
-    order: 1;
-  }
-  article > .social {
-    order: 2;
+  /* Larger photo than the theme's default 30% width (desktop only; phones already show it full width). */
+  @media (min-width: 576px) {
+    article > .profile {
+      width: 40%;
+    }
   }
 </style>
+
+<script>
+  // Move the "Why √2?" section below the news and publications lists, just above the social icons.
+  document.addEventListener("DOMContentLoaded", () => {
+    const heading = document.getElementById("why-2");
+    const social = document.querySelector("article > .social");
+    if (!heading || !social) return;
+    const section = [heading];
+    for (let el = heading.nextElementSibling; el; el = el.nextElementSibling) section.push(el);
+    section.forEach((el) => social.before(el));
+  });
+</script>
 
 We are a newly established quantum computational chemistry group at the University of Liverpool. We design and implement quantum computing algorithms for chemistry and quantum machine learning.
 
