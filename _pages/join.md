@@ -12,7 +12,7 @@ nav_order: 4
   }
 </style>
 
-Our research sits between chemistry, physics and computer science, and we welcome people from any of these or a related subject. Some programming experience (e.g. Python) helps, but no prior knowledge of quantum computing is expected.
+Our research sits between chemistry, physics and computer science, and we welcome people from any of these or a related subject. Some programming experience (e.g. Python) helps, but no prior knowledge of quantum computing is expected. Or, as [everyone's favourite mayor](https://x.com/ZohranKMamdani/status/1978963135294742577) might put it: what you don't have in research experience, you can make up for in curiosity.
 
 [PhD students](#phd-students) · [MChem and master's students](#mchem-and-masters-students) · [Postdocs and fellowships](#postdocs-and-fellowships) · [Not sure if you're in the right place?](#not-sure-if-youre-in-the-right-place)
 
