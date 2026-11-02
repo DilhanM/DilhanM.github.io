@@ -4,11 +4,6 @@ title: About
 permalink: /
 subtitle: Department of Chemistry; University of Liverpool
 
-profile:
-  align: right
-  image: liverpool.jpg
-  image_circular: false # crops the image to make it circular
-
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -30,10 +25,17 @@ latest_posts:
     text-align: justify;
   }
 
-  /* Larger photo than the theme's default 30% width (desktop only; phones already show it full width). */
-  @media (min-width: 576px) {
-    article > .profile {
-      width: 40%;
+  /* Photo floats right of the intro on desktop; full width on phones. */
+  article figure {
+    float: right;
+    width: 40%;
+    margin: 0.3rem 0 1rem 1.5rem;
+  }
+  @media (max-width: 575.98px) {
+    article figure {
+      float: none;
+      width: 100%;
+      margin: 0 0 1rem;
     }
   }
 </style>
@@ -49,6 +51,8 @@ latest_posts:
     section.forEach((el) => social.before(el));
   });
 </script>
+
+{% include figure.liquid path="assets/img/liverpool.jpg" class="img-fluid rounded z-depth-1" alt="A snapshot of Liverpool's media wall with Radio City Tower in the background, as seen on the walk from Liverpool Lime Street towards the Department of Chemistry" %}
 
 We are a newly established quantum computational chemistry group at the University of Liverpool. We design and implement quantum computing algorithms for chemistry and quantum machine learning.
 
