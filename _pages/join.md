@@ -10,7 +10,31 @@ nav_order: 4
   article p {
     text-align: justify;
   }
+
+  /* xkcd comic floats right beside the text on desktop; centred and smaller on phones. */
+  article figure {
+    float: right;
+    width: 35%;
+    margin: 0.3rem 0 1rem 1.5rem;
+  }
+  article figure .caption {
+    font-size: 0.85rem;
+  }
+  @media (max-width: 575.98px) {
+    article figure {
+      float: none;
+      width: 75%;
+      margin: 0 auto 1rem;
+    }
+  }
+
+  /* Invert the black-on-white comic in dark mode. */
+  html[data-theme="dark"] article figure img {
+    filter: invert(1) hue-rotate(180deg);
+  }
 </style>
+
+{% include figure.liquid path="assets/img/xkcd/good_science.png" class="img-fluid" alt="xkcd comic Good Science. A teacher runs a regression on all the factors people say make good science, and finds the two most crucial ingredients are genuine curiosity about the answer to a question, and ammonium hydroxide. A student asks why ammonia scored so high and how it even got on the list; the teacher replies: and now you are doing good science!" caption="<em>If you think curiosity without rigor is bad, you should see rigor without curiosity.</em><br><a href='https://xkcd.com/3101/'>xkcd #3101</a> by Randall Munroe, <a href='https://creativecommons.org/licenses/by-nc/2.5/'>CC BY-NC 2.5</a>" %}
 
 Our research sits between chemistry, physics and computer science, and we welcome people from any of these or a related subject. Some programming experience (e.g. Python) helps, but no prior knowledge of quantum computing is expected. Or, as [everyone's favourite mayor](https://x.com/ZohranKMamdani/status/1978963135294742577) might put it: what you don't have in research experience, you can make up for in curiosity.
 
