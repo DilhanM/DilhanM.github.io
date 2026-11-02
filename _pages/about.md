@@ -1,16 +1,17 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Department of Chemistry; University of Liverpool
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Department of Chemistry</p>
-    <p>University of Liverpool</p>
+# Photo moved to the People page; uncomment to show it here again.
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+#     <p>Department of Chemistry</p>
+#     <p>University of Liverpool</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,10 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<style>
+  /* Justify the bio text only (not the news or publication lists). */
+  article > .clearfix p {
+    text-align: justify;
+  }
+</style>
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We are a newly established quantum computational chemistry group at the University of Liverpool. We design and implement quantum computing algorithms for chemistry and quantum machine learning.
 
-testing
+An overview of our research aims, methods and recent highlights can be found on the [Research](/research/) page, and a full list of our publications on the [Publications](/publications/) page. You can meet the team on the [People](/people/) page, and if you are interested in working with us, see [Join Us](/join/).
 
-**Research interests:** Lorem ipsum &middot; dolor sit amet &middot; consectetur adipiscing &middot; elit sed do eiusmod.
+**Research interests:** Theoretical and Computational Chemistry &middot; Quantum Machine Learning &middot; Tensor Network Methods (DMRG) &middot; Quantum Computing.

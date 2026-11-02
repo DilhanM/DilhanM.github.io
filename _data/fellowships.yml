@@ -1,0 +1,127 @@
+# Postdoctoral / early-career fellowships that can be held with Dilhan at the University of Liverpool.
+# Rendered on /join/ (see _pages/join.md).
+#
+# Keep this list up to date: dates move every year. `status` controls the coloured tag:
+#   open      -> currently accepting applications (show `deadline`)
+#   upcoming  -> next round expected soon (show `next_round`)
+#   closed    -> between rounds (show `next_round`)
+#   paused    -> scheme not currently running
+# `stage` is used to group the cards: early (≤ ~3 yrs post-PhD), independent (research-group-leader track).
+#
+# Last checked: 28 September 2026
+
+last_checked: 28 September 2026
+
+schemes:
+  # ---------------- Currently open ----------------
+  - name: Dorothy Hodgkin Fellowship
+    funder: Royal Society
+    stage: independent
+    status: open
+    deadline: 29 October 2026
+    who: Up to 6 years' research experience since your PhD, with a current need for flexible working (e.g. caring responsibilities or a health condition).
+    length: 8 years (5 + 3 after review)
+    value: Up to ~£1.9M
+    url: https://royalsociety.org/grants/dorothy-hodgkin-fellowship/
+
+  - name: Career Development Fellowship
+    funder: Royal Society
+    stage: early
+    status: open
+    deadline: 18 November 2026
+    who: Early-career researchers of Black heritage (including mixed Black heritage), with a PhD and under 24 months of postdoctoral experience, and a UK connection.
+    length: 4 years, with a bespoke mentoring and training programme
+    value: Up to ~£700k
+    url: https://royalsociety.org/grants/career-development-fellowship/
+
+  # ---------------- Next round coming up ----------------
+  - name: Early Career Fellowship
+    funder: Leverhulme Trust
+    stage: early
+    status: upcoming
+    next_round: Leverhulme deadline expected Feb 2027; Liverpool runs an internal selection in the autumn (~Oct–Nov)
+    who: Submitted your PhD thesis no more than 4 years before the closing date. Open to any subject.
+    length: 3 years
+    value: Salary (Leverhulme 50%, host 50%) + up to £6k/yr research expenses
+    url: https://www.leverhulme.ac.uk/early-career-fellowships
+
+  - name: 1851 Research Fellowship
+    funder: Royal Commission for the Exhibition of 1851
+    stage: early
+    status: upcoming
+    next_round: Usually closes mid-January; the university nominates candidates, so talk to me by November
+    who: Recent PhD graduates (or finishing students) with up to ~3 years of postdoctoral experience, in science or engineering.
+    length: Up to 3 years
+    value: Full salary costs + £10k/yr expenses
+    url: https://royalcommission1851.org/research-fellowships-eligibility-and-benefits
+
+  - name: Newton International Fellowship
+    funder: Royal Society
+    stage: early
+    status: upcoming
+    next_round: Typically opens January, closes March (2026 round closed 11 March 2026)
+    who: Researchers based outside the UK, without UK citizenship, with up to 5 years of postdoctoral experience. A great route to move to the UK.
+    length: 2 years (+ alumni follow-on funding)
+    value: Up to £280k
+    url: https://royalsociety.org/grants/newton-international/
+
+  - name: Research Fellowship
+    funder: Royal Academy of Engineering
+    stage: independent
+    status: upcoming
+    next_round: Expressions of interest usually due in spring, full applications early summer
+    who: Within ~4 years of your PhD, working on engineering-focused research (broadly defined — quantum computing and algorithm/software development can fit).
+    length: 5 years
+    value: Salary + research costs and mentoring
+    url: https://raeng.org.uk/programmes-and-prizes/programmes/uk-grants-and-prizes/support-for-research/research-fellowships/
+
+  # ---------------- Between rounds ----------------
+  - name: Marie Skłodowska-Curie Postdoctoral Fellowship
+    funder: European Commission (Horizon Europe)
+    stage: early
+    status: closed
+    next_round: Usually opens April, closes September (2026 call closed 9 Sept 2026). UK hosts are eligible.
+    who: Up to 8 years' research experience since your PhD; you must not have lived or worked in the UK for more than 12 of the 36 months before the deadline.
+    length: 1–2 years (European) or 2–3 years (Global)
+    value: Salary, mobility and research allowances
+    url: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships
+
+  - name: University Research Fellowship
+    funder: Royal Society
+    stage: independent
+    status: closed
+    next_round: Usually opens July, closes early September (2027 round closed 9 Sept 2026)
+    who: 3–8 years of research experience since your PhD, without a permanent academic post; natural sciences including chemistry and physics.
+    length: 8 years (5 + 3 after review)
+    value: Up to ~£1.9M
+    url: https://royalsociety.org/grants/university-research/
+
+  - name: Future Leaders Fellowship
+    funder: UK Research and Innovation
+    stage: independent
+    status: closed
+    next_round: Round 11 closed June 2026; future rounds to be confirmed. Requires university internal selection.
+    who: Researchers establishing or moving to independence (any career stage after PhD, no fixed time limit).
+    length: 4 years + 3-year renewal
+    value: 80% of full economic cost, typically £0.3M–£2M+
+    url: https://www.ukri.org/apply-for-funding/our-fellowship-opportunities/future-leaders-fellowships/
+
+  - name: Ramsay Memorial Fellowship
+    funder: Ramsay Memorial Fellowships Trust
+    stage: early
+    status: closed
+    next_round: Annual; dates announced on the Trust's page
+    who: Postdoctoral chemists with some postdoctoral experience and a distinguished record, ready to start an independent project.
+    length: 2 years
+    value: Salary + research allowance
+    url: https://www.soci.org/awards/scholarships-and-fellowships/ramsay-fellowship
+
+  - name: EPSRC fellowships
+    funder: UKRI – EPSRC
+    stage: early
+    status: paused
+    next_round: The postdoctoral and open fellowships (outside mathematical sciences) closed in Dec 2024; replacements are expected on the UKRI Funding Finder.
+    who: Watch this space — I'll update this entry when new calls appear.
+    length: —
+    value: —
+    url: https://www.ukri.org/apply-for-funding/our-fellowship-opportunities/
