@@ -11,6 +11,18 @@ nav_order: 4
     text-align: justify;
   }
 
+  /* Announcement banner for open positions. */
+  .phd-banner {
+    border-left: 4px solid var(--global-theme-color);
+    background-color: var(--global-card-bg-color);
+    border-radius: 0.25rem;
+    padding: 0.9rem 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .phd-banner p {
+    margin-bottom: 0;
+  }
+
   /* xkcd comic floats right beside the text on desktop; centred and smaller on phones. */
   article figure {
     float: right;
@@ -33,6 +45,10 @@ nav_order: 4
     filter: invert(1) hue-rotate(180deg);
   }
 </style>
+
+<div class="phd-banner" markdown="1">
+**PhD studentship coming soon!** A fully funded PhD studentship (fees and stipend, for UK home-fee students) on simulating chemical dynamics on quantum computers will be advertised shortly. If you're interested, [send an email](mailto:dilhan.manawadu@liverpool.ac.uk).
+</div>
 
 {% include figure.liquid path="assets/img/xkcd/good_science.png" class="img-fluid" alt="xkcd comic Good Science. A teacher runs a regression on all the factors people say make good science, and finds the two most crucial ingredients are genuine curiosity about the answer to a question, and ammonium hydroxide. A student asks why ammonia scored so high and how it even got on the list; the teacher replies: and now you are doing good science!" caption="<em>If you think curiosity without rigor is bad, you should see rigor without curiosity.</em><br><a href='https://xkcd.com/3101/'>xkcd #3101</a> by Randall Munroe, <a href='https://creativecommons.org/licenses/by-nc/2.5/'>CC BY-NC 2.5</a>" %}
 
