@@ -19,6 +19,12 @@ nav_order: 1.5 # between About and Research (2)
   article h4 {
     clear: both;
   }
+  /* Keep the last photo from spilling past the end of the page. */
+  article::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
   @media (max-width: 576px) {
     article figure {
       float: none;
