@@ -38,6 +38,10 @@ In September 2026, he joined the Department of Chemistry at the University of Li
 
 #### Kajanann Karunaivel
 
-Kajanann is an MChem student at the Department of Chemistry.
+{% include figure.liquid path="assets/img/kaj.jpeg" class="img-fluid rounded z-depth-1" alt="Kajanann Karunaivel" %}
+
+Kaj is an MChem Medicinal Chemistry student who enjoys chemistry in all its aspects, with specific interests in synthetic, theoretical and applied chemistry, and further interests in quantum mechanics and organic chemistry. Kaj is currently investigating extensions of Quantum Molecular Structure Encoding to conjugated molecules, with the hope of making advances within the project and the wider research area.
+
+His hobbies include watching movies, shows and anime, K-pop, the gym, martial arts, dancing, and just living life with fun!
 
 Interested in joining the group? See [Join Us](/join/).
